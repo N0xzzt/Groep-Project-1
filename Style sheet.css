@@ -1,5 +1,6 @@
 header {
-    text-align: center;
+    position: relative;
+    left: 5%;
     color: white;
 }
 
