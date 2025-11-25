@@ -1,10 +1,17 @@
 header {
     text-align: center;
-    background-color: rgb(18, 109, 0);
+    background-color: rgb(73, 119, 64);
     position: relative;
     color: white;
-    padding: 10px;
+    padding: 5px;
     font-size: 2vw;
+}
+.otherHeader {
+    text-align: center;
+    background-color: rgb(46, 82, 39);
+    position: relative;
+    padding: 0.75px;
+    font-size: 1.5vmax ;
 }
 body {
     background-color: rgb(61, 153, 184);
