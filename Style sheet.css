@@ -1,5 +1,9 @@
-a {
+a:link, a:visited {
     color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+a:hover, a:active {
+    color: rgb(245, 224, 37);
     font-weight: bold;
 }
 
