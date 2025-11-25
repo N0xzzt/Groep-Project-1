@@ -1,6 +1,7 @@
 header {
+    text-align: center;
+    background-color: rgb(18, 109, 0);
     position: relative;
-    left: 5%;
     color: white;
 }
 
