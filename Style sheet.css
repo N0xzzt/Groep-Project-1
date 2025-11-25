@@ -1,10 +1,12 @@
 header {
+    display: grid;
     text-align: center;
     background-color: rgb(18, 109, 0);
     position: relative;
     color: white;
     padding: 10px;
-    font-size: 1vw;}
+    font-size: 2vw;}
+    
 
 body {
     background-color: rgb(61, 153, 184);
