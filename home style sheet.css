@@ -10,7 +10,7 @@ a:active {
     font-weight: bold;
 }
 
-.HomeHeader {
+.Header {
     text-align: center;
     background-color: rgb(73, 119, 64);
     position: relative;
@@ -19,7 +19,7 @@ a:active {
     font-size: 2vw;
 }
 
-.HomeHeader2 {
+.Header2 {
     text-align: center;
     background-color: rgb(46, 82, 39);
     position: relative;
