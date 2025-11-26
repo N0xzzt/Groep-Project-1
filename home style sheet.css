@@ -1,13 +1,16 @@
-a:link, a:visited {
+a:link,
+a:visited {
     color: rgb(255, 255, 255);
     font-weight: bold;
 }
-a:hover, a:active {
+
+a:hover,
+a:active {
     color: rgb(245, 224, 37);
     font-weight: bold;
 }
 
-header {
+.HomeHeader {
     text-align: center;
     background-color: rgb(73, 119, 64);
     position: relative;
@@ -16,7 +19,7 @@ header {
     font-size: 2vw;
 }
 
-.otherHeader {
+.HomeHeader2 {
     text-align: center;
     background-color: rgb(46, 82, 39);
     position: relative;
