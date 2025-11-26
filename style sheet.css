@@ -28,6 +28,13 @@ a:active {
     color: white;
 }
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 body {
     background-color: rgb(248, 255, 235);
     margin: 0px;
