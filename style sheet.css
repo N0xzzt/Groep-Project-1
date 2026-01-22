@@ -139,3 +139,25 @@ footer {
     text-align: center;
     padding-top: 15px;
 }
+
+.bovenFooter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    background-color: rgb(46, 82, 39);
+    color: white;
+    text-align: center;
+
+    img {
+        width: 50%;
+        height: auto;
+        border-radius: 10px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        padding-left: 20px;
+    }
+
+    padding: 1.2%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
