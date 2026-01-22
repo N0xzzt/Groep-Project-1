@@ -1,42 +1,105 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Contact</title>
+    <title>contact page</title>
     <link rel="stylesheet" href="style sheet.css">
 </head>
+
 <body>
 
-<div class="Header">
-    <h1>Contact</h1>
-</div>
+    <header class="Header">
+        <img src="thumbnail_Nora'sFloraDark.png" alt="Nora's Flora Logo" width="234" height="151">
+    </header>
 
-<div class="Header2">
-    <a href="Home page.html">Home</a> |
-    <a href="assortiment page.html">Assortiment</a> |
-    <a href="contact page.html">Contact</a>
-</div>
+    <header class="Header2">
+        <p>
+            <a href="Home page.html">| Home |</a>
+            <a href="assortiment page.html">| Assortiment |</a>
+            <a href="contact page.html">| Contact |</a>
+        </p>
+    </header>
 
-<div class="container3">
+    <!-- Lichtgroene balk boven -->
+    <div style="background-color: rgb(222, 242, 187); height: 40px;"></div>
 
-    <div>
-        <h2>Gegevens</h2>
-        <p>Groene Wereld</p>
-        <p>info@groenewereld.nl</p>
-        <p>06-12345678</p>
+    <!-- Midden content -->
+    <div style="background-color: rgb(73, 119, 64); padding: 60px 0;">
+
+        <h1 style="text-align:center; color:white; margin-bottom:40px;">
+            Neem contact op
+        </h1>
+
+        <div class="container3" style="background-color: rgb(73, 119, 64); padding-left:15%; padding-right:15%;">
+
+            <!-- Linker kant -->
+            <div style="background-color: rgb(73, 119, 64); color:white; text-align:left; font-size:18px;">
+
+                Heb je een vraag over onze bloemen, een bestelling of <br>
+                wil je gewoon even hallo zeggen? We horen graag van <br>
+                je! Vul het contactformulier in of stuur ons een berichtje <br>
+                via e-mail of telefoon. Nora's Flora staat klaar om je te <br>
+                helpen met al je bloemige wensen. 🌸
+                <br><br><br>
+
+                Email &nbsp;&nbsp;&nbsp;&nbsp;: contact@noraflora.com <br>
+                Telefoon : 06 12345678 <br>
+                Adres &nbsp;&nbsp;&nbsp;: Zwolle, pannenkoekendijk 420 B
+
+            </div>
+
+            <!-- Rechter kant -->
+            <div style="background-color: rgb(73, 119, 64);">
+
+                <form action="contact page.html" method="get">
+
+                    <textarea
+                        name="bericht"
+                        placeholder="type hier je vraag of opmerking..."
+                        rows="7"
+                        style="width:100%; padding:15px; border-radius:15px; border:none; font-size:16px;">
+                    </textarea>
+
+                    <br><br>
+
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="type hier je email..."
+                        style="width:100%; padding:12px; border-radius:15px; border:none; font-size:16px;">
+
+                    <br><br>
+
+                    <button
+                        type="submit"
+                        style="width:50%; padding:12px; border-radius:25px; border:none; background-color: rgb(222, 242, 187); font-size:18px; cursor:pointer;">
+                        Verzenden
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div>
-        <h2>Adres</h2>
-        <p>Plantenstraat 12</p>
-        <p>1234 AB Groenstad</p>
-    </div>
+    <!-- Lichtgroene balk onder -->
+    <div style="background-color: rgb(222, 242, 187); height: 40px;"></div>
 
-</div>
+    <footer>
+        <div style="display:inline-block; vertical-align:top; margin-right:50px;">
+            Email : contact@noraflora.com <br>
+            Telefoon : 06 12345678 <br>
+            Adres : Zwolle, pannenkoekendijk 420 B
+        </div>
 
-<footer>
-    <p>© 2026 Groene Wereld</p>
-</footer>
+        <div style="display:inline-block; vertical-align:top;">
+            Openingstijden <br>
+            Ma - Vr : 12:00 - 17:00 <br>
+            Zaterdag : 10:00 - 17:00
+        </div>
+    </footer>
 
 </body>
 </html>
