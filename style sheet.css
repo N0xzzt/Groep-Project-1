@@ -165,3 +165,13 @@ footer {
 #assortimentpage {
     background-color: rgb(255, 255, 255);
 }
+
+div.assortimentpage.container p,
+div.assortimentpage.container2 p,
+div.assortimentpage.container3 p,
+div.assortimentpage.container23 p {
+    text-align: center;
+    padding: 0px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+}
