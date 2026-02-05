@@ -2,5 +2,5 @@
 
 
 
-Austin, Jamie, Semmy, Thijn
+Austin, Thijn
 
